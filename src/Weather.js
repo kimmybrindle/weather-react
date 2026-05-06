@@ -47,7 +47,7 @@ export default function Weather(props) {
           <li>Wind:{Math.round(weather.wind)}</li>
           <li>
             {" "}
-            <img src={weather.emoji} alt="weather image" />
+            <img src={weather.emoji} alt={weather.description} />
           </li>
         </ul>
       </div>
