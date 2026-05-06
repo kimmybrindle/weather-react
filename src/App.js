@@ -10,7 +10,11 @@ function App() {
       </header>
       <footer>
         This code is{" "}
-        <a href="https://github.com/kimmybrindle/weather-react" target="_blank">
+        <a
+          href="https://github.com/kimmybrindle/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           open-sourced on Github
         </a>{" "}
         by Kimmy Brindle.
